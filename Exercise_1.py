@@ -1,3 +1,26 @@
+'''
+
+// Your code here along with comments explaining your approach
+used top as a pointer incrementing it while pushing and 
+while popping checking if stack is empty or not
+if its not empty getting the top element
+and then decrementing top pointer one
+
+1. push () :
+  1. appending item into the arr
+  2. incrementing the top pointer by 1
+
+2. pop:
+  1. checking the stack if its empty or not
+  2. if its not empty geet the popped element
+  3. decrement the top pointer by 1
+  
+3. peek:
+ 1. check if the array ahs elemnet (isempty())
+ 2. if thers any element present 
+ 3. return the top eleemnt 
+  
+'''
 class myStack:
   #Please read sample.java file before starting.
   #Kindly include Time and Space complexity at top of each file
